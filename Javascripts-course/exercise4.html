@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coin flip</title>
+</head>
+<body>
+  <script>
+    let randomNumber = Math.random;
+
+    if (randomNumber <= 1/2){
+      console.log('heads');
+    } else {
+      console.log('tails');
+    }
+      result = 'tails';
+    }
+
+      const guess = 'heads';
+
+    if (guess === result) {
+        console.log('You win!');
+    } else {
+        console.log('You lose!');
+      }
+  </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      const randomNumber = Math.random();
+      const result = randomNumber < 0.5 ? 'heads' : 'tails';
+
+      const guess = 'heads';
+      console.log(guess === result ? 'You win!' : 'You lose!');
+    </script>
+  </body>
+</html>
